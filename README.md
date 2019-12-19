@@ -41,7 +41,7 @@ DFD
 Диаграмма последовательностей
 
 ![none](https://github.com/MorozovViktor/MorozovV.github.io/blob/master/301.png)
-
+  
  ERD
  
  ![none](https://github.com/MorozovViktor/MorozovV.github.io/blob/master/302.png)
