@@ -1,0 +1,32 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class Modules as "Модуль"
+
+
+class In as "Внутренний"
+class Out as "Внешний"
+
+class Prepare as "Подготовить занятие"
+
+class Plan as "Планировать занятие"
+class Teach as "Провести занятие"
+class Estimate as "Оценить занятие"
+
+
+Modules<|-- In
+Modules<|-- Out
+
+In<|-- Prepare
+
+Out<|-- Plan
+Out<|-- Teach
+Out<|-- Estimate
+
+hide members
+hide circle
+hide methods
+@enduml
